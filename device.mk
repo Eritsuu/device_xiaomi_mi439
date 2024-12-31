@@ -18,6 +18,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 TARGET_BOARD_PLATFORM := msm8937
 TARGET_KERNEL_VERSION := 4.19
 
+# ENFORCE VINTF
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
+
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
