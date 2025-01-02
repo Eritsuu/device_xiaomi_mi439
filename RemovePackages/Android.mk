@@ -11,7 +11,28 @@ LOCAL_OVERRIDES_PACKAGES := \
     Maps \
     WifiResCommon_Sys \
     WifiResCommonMainline_Sys \
-    YouTube
+    YouTube \
+    BetterBugStub \
+    CalculatorGooglePrebuilt \
+    CalendarGooglePrebuilt \
+    Chrome-Stub \
+    GoogleContacts \
+    PrebuiltDeskClockGoogle \
+    PrebuiltBugle \
+    TrichromeLibrary \
+    TrichromeLibrary-Stub \
+    GCS \
+    talkback \
+    WellbeingPrebuilt \
+    GoogleDialer \
+    DeviceIntelligenceNetworkPrebuilt \
+    DevicePersonalizationPrebuiltPixel2020 \
+    SafetyHubPrebuilt \
+    GoogleTTS \
+    TurboPrebuilt \
+    LatinIMEGooglePrebuilt \
+    HealthIntelligenceStubPrebuilt \
+    QuickSearchBox
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
